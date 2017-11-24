@@ -163,11 +163,11 @@ def cards2csv(project, token,  outfile=None, verbose=False):
         csvout.writerow((
             'id',
             'Title',
-            'Body',
             'State',
             'Points',
             'Milestone',
             'Labels',
+            'Body',
             'URL',
             'Created At',
             'Updated At',
